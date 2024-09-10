@@ -1,24 +1,26 @@
-# recipe-ingredient-parser-v3
+# rip-v3
 
+# RECIPE INGREDIENT PARSER
 Natural language parser for recipes and lists of ingredients. Can parse a string into an object and also combine an array of these ingredient objects.
 
 ## About
 
 This project was built on top of code written by [nsafai](https://github.com/nsafai/recipe-parser).
+Forked from [suprmat95] (https://github.com/suprmat95/recipe-parser).
 
 What's different from the original?
-
+- added support for the French language (at work, comming soon).
 - added support for the Italian language.
 - added support for numbers written in words (for example `six cups milk`)
 - added support for preposition before name of ingredient (for example `six cups of milk` or `sei tazze di latte`)
 
 ## To install
 
-`npm install recipe-ingredient-parser-v3` or `yarn add recipe-ingredient-parser-v3`
+`npm install rip-v3` or `yarn add rip-v3`
 
 ## To use
 
-`import { parse } from 'recipe-ingredient-parser-v3';`
+`import { parse } from 'rip-v3';`
 
 And then use on a string, for example:
 `parse('1 teaspoon basil', 'eng');`
@@ -75,6 +77,8 @@ Languages currently supported:
 
 - English `eng`
 - Italian `ita`
+- French `fre`
+
 
 ### Unicode Fractions
 
