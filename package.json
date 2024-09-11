@@ -1,6 +1,6 @@
 {
   "name": "rip-v3",
-  "version": "1.3.2",
+  "version": "1.3.4",
   "description": "Natural language parser for recipes and ingredient lists, incl. combining ingredients",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
